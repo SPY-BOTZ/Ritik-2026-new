@@ -28,8 +28,8 @@ def is_enabled(value, default: bool = False) -> bool:
 # 1. BOT CREDENTIALS & SESSION
 # ==============================================================================
 # Telegram API credentials from https://my.telegram.org
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_ID = int(environ.get('API_ID', '34542868'))
+API_HASH = environ.get('API_HASH', 'd57f005270d0d251528fb52cec41f59c')
 
 # Bot token obtained from @BotFather
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
@@ -44,10 +44,10 @@ name = str(environ.get('name', 'DREAMXBOTZ'))
 # 2. ADMINS, CHANNELS & PERMISSIONS
 # ==============================================================================
 # Telegram user IDs of bot administrators (space-separated in .env)
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '634637418').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '8697153727 8950149371').split()]
 
 # Channels to auto-index files from (Bot must be an admin in these channels)
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-100').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1003938574845').split()]
 
 # Logging & Storage Channels
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-100'))            # General activity & error logs
