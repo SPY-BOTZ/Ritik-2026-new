@@ -78,7 +78,7 @@ PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in envir
 # Social & Community Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+hmp0QneeHf85ZjE1')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Dramalover100')
-UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/+hmp0QneeHf85ZjE1')
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/+16oA_c46YAhiMDM9')
 
 
 # ==============================================================================
@@ -181,7 +181,7 @@ BAD_WORDS = {
 # 6. MOVIE UPDATES & POSTER NOTIFICATIONS
 # ==============================================================================
 MOVIE_UPDATE_NOTIFICATION = is_enabled(environ.get('MOVIE_UPDATE_NOTIFICATION', "True"), True)
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1004325169618'))
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002765101816'))
 DREAMXBOTZ_IMAGE_FETCH = is_enabled(environ.get('DREAMXBOTZ_IMAGE_FETCH', "True"), True)
 LINK_PREVIEW = is_enabled(environ.get('LINK_PREVIEW', "False"), False)
 ABOVE_PREVIEW = is_enabled(environ.get('ABOVE_PREVIEW', "True"), True)
